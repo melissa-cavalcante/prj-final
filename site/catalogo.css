@@ -1,0 +1,51 @@
+body{
+    background-color: #1E1E1E;   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+#linha{
+    margin-top: -5px;
+    background-color: #FF2924;
+    width: 90%;
+    height: 3px;
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+overflow: hidden;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover{
+    color: #FF2924;
+    border-bottom: 2px solid #FF2924;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
