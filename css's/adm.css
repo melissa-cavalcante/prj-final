@@ -1,0 +1,182 @@
+:root{
+    --branco:#fff;
+    --preto:#000;
+    --bg:#333;
+    --vermelho:#FF2A25;
+    --vinho:#981916;
+    --rosa-claro:#FFA9A7;
+    --rosa-escuro:#FF7F7C;
+    --rosinha:#f0c1c0;
+    --cinza-escuro:#455A64;
+    --vermelho-claro: #e74c4c;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    color: var(--branco);
+}
+
+h3{
+    color: #999;
+}
+
+#sair{
+    background: var(--vermelho-claro);
+    color: var(--branco);
+    padding: 5px 10px;
+    text-align: center; 
+}
+
+#sair:hover{
+    color: var(--vermelho-claro);
+    background: var(--branco);
+    padding: 3px 8px;
+    border: 2px solid var(--vermelho-claro);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.side-menu{
+    position: fixed;
+    background: var(--vermelho-claro);
+    width: 20vw;
+    height: 100%;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li{
+    font-size: 1opx;
+    padding: 10px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover{
+    background-color: var(--branco);
+    color: var(--vermelho-claro);
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    background: #f1f1f1;
+}
+
+.container .head{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 11.3vh;
+    background: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .head .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.container .head .nav .search{
+    flex: 3;
+}
+
+.container .head .nav .search input[type=text]{
+    border: none;
+    background: #f1f1f1;
+    padding: 10px;
+    width: 50%;
+}
+
+.container .head .nav .user{
+    flex: 1;
+}
+
+.container .content{
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+
+.container .content .cards{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .content .cards .card{
+    width: 250px;
+    height: 150px;
+    background: white;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .content .content-2{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container .content .content-2 .pagamentos-recentes{
+    min-height: 50vh;
+    flex: 5;
+    background: var(--branco);
+    margin: 0 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .content .content-2 .novos-clientes{
+    flex: 2;
+    background: var(--branco);
+    min-height: 50vh;
+    margin: 0 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+    :root{
+        --branco:#fff;
+        --preto:#000;
+        --bg:#333;
+        --vermelho:#FF2A25;
+        --vinho:#981916;
+        --rosa-claro:#FFA9A7;
+        --rosa-escuro:#FF7F7C;
+        --rosinha:#f0c1c0;
+        --cinza-escuro:#455A64;
+
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width:100% ;
+    margin: 0 auto;
+}
+
+#body{
+    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-left: 50px;
+    background: var(--bg);
+    color: var(--branco);
+    
+}
+
+
+.logo{
+    padding-left: 5%;
+}
+header{
+    width: 100%;
+    display: flex;
+    position:fixed;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--branco);
+    
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--branco); 
+}
+
+a:hover{
+    color: var(--rosa-claro); 
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+   display: flex; 
+   flex-direction: row;
+   margin: 16px;
+}
+
+article{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: var(--rosa-claro);
+}
+
+p{
+    line-height: 20px;
+    max-width: 1500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: var(--rosa-escuro);
+    color: var(--branco);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top:20px ;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+input:hover{
+    border: 2px solid var(--rosa-escuro);
+}
+
+
+
+
+
+/* Parte do Cardapio */
+
+section .popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+
+/* Final do Cardapio */
+
+
+
+
+
+@media (max-width:884px){
+   h2{
+    line-height: 40px;
+   }
+}
+
+@media (max-width:608px){
+    article{
+        display: none;
+    }
+}
