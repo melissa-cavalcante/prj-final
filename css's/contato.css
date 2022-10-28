@@ -1,0 +1,44 @@
+:root{
+    --branco:#fff;
+    --preto:#000;
+    --bg:#333;
+    --vermelho:#FF2A25;
+    --vinho:#981916;
+    --rosa-claro:#FFA9A7;
+    --rosa-escuro:#FF7F7C;
+    --rosinha:#f0c1c0;
+    --cinza-escuro:#455A64;
+    --vermelho-claro: #e74c4c;
+}
+
+#contato{
+    margin-left: 180px;
+    padding: 0;
+}
+
+#contato > h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contato > span{
+    color: var(--rosa-claro);
+}
+
+
+#foto-contato{
+    justify-content: center;
+    margin-left: 110px;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+#contato > aside{
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: 110px;
+}

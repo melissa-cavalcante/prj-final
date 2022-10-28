@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="./css's/sobre.css">
 
+    <link rel="stylesheet" href="./css's/contato.css">
+
     <script defer src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
 
 
@@ -162,7 +164,7 @@
 
     <div id="body2" >
         <main id="sobre">
-            <article>
+            <article id="foto-sobre">
                 <img class="foto-sobre" src="./img/sobre-nos.svg">
             </article>
 
@@ -182,7 +184,26 @@
 
     <!-- about us section ends -->
 
-    <button><a href="./links/adm.php">ADM</a></button>
+    <main id="contato">
+            <aside>
+                <h2><span>Entre em contato</span></h2>
+                <h2>com a Missô</h2>
+                <form action="">
+                    <input type="text" placeholder="Digite seu email">
+                    <input type="password" placeholder="Deixe sua mensagem">
+                    <input type="submit" value="Enviar">
+                </form>
+            </aside>
+
+            <article id="foto-contato">
+                <img class="foto-tela" src="./img/contato.svg">
+            </article>
+
+    </main>
+
+
+
+    <button><a href="./links/login-adm.php">ADM</a></button>
 
 
 </body>

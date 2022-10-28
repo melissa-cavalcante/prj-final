@@ -23,7 +23,12 @@ body{
 }
 
 a{
+    color: white;
     text-decoration: none;
+}
+
+a:hover{
+    color: var(--rosa-escuro);
 }
 
 li{
@@ -50,6 +55,16 @@ h3{
     background: var(--branco);
     padding: 3px 8px;
     border: 2px solid var(--vermelho-claro);
+}
+
+
+/* pagamentos recentes */
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    border-bottom: 2 px solid#999;
 }
 
 header{

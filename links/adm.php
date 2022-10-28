@@ -1,3 +1,5 @@
+<?php include "verifica-logado-adm.php"; ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -54,7 +56,7 @@
                     </button>
                 </div>
                 <div class="user">
-                    <button id="sair">Sair</button>
+                    <button id="sair"><a href="logout-adm.php">Sair</a></button>
                 </div>
             </div>
         </div>
@@ -99,7 +101,16 @@
             </div>                
             <div class="content-2">
                 <div class="pagamentos-recentes"></div>
-                <div class="novos-clientes"></div>
+                    <div class="title">
+                        <h2>Pagamentos Recentes</h2>
+                        <a href="#" class="btn">Ver Tudo</a>
+                    </div>
+                <div class="novos-clientes">
+                <div class="title">
+                        <h2>Clientes Novos</h2>
+                        <a href="#" class="btn">Ver Tudo</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
