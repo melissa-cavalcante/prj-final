@@ -28,7 +28,7 @@
 
 <body>
 
-    <header>
+    <header id="home">
 
         <div class="logo">
             <img src="./img/logo2.svg" alt="">
@@ -51,7 +51,7 @@
                     </lord-icon>
                 </a>
 
-                <a href="#">
+                <a href="#contato">
                     <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="hover" colors="primary:#333,secondary:#08a88a" style="width:70px;height:70px">
                     </lord-icon>
                 </a>
@@ -63,16 +63,12 @@
         </div>
     </header>
 
-    <div id="body" >
-        <main id="home">
+    <div id="body">
+        <main>
             <aside>
-                <h2><span>Inscreva-se agora</span></h2>
-                <h2>na Missô</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Hic ex provident laudantium distinctio aliquam maxime
-                    voluptatum totam ad maiores recusandae deleniti
-                    consequatur eos quae numquam et dicta, id natus
-                    consectetur?</p>
+                <h2><span>Ganhe desconto</span></h2>
+                <h2>na Missô!</h2>
+                <p>Vamos te presentear com um CUPOM de desconto de 15% na primeira compra após realizar seu primeiro login na Missô!</p>
                 <form action="">
                     <input type="text" placeholder="Digite seu nome">
                     <input type="password" placeholder="Digite sua senha">
@@ -93,7 +89,11 @@
 
     <!-- Card 01 -->
 
-    <div class="titulo" id="menu"><center><h3>Nossas <span> Promoções </span></center></div>
+    <div class="titulo" id="menu">
+        <center>
+            <h3>Nossas <span> Promoções </span>
+        </center>
+    </div>
 
     <div class="container">
         <div class="card">
@@ -162,20 +162,17 @@
 
     <!-- about us section starts -->
 
-    <div id="body2" >
-        <main id="sobre">
+    <div class="body2" id="sobre">
+        <main class="sobre">
             <article id="foto-sobre">
                 <img class="foto-sobre" src="./img/sobre-nos.svg">
             </article>
 
             <aside>
-            <h2><span>Inscreva-se agora</span></h2>
-                <h2>na Missô</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Hic ex provident laudantium distinctio aliquam maxime
-                    voluptatum totam ad maiores recusandae deleniti
-                    consequatur eos quae numquam et dicta, id natus
-                    consectetur?</p>
+                <h2><span>Sobre nós da</span></h2>
+                <h2> Missô</h2>
+                <p>A Missô é um dos pioneiros na região de São Paulo, desde então a marca é reconhecida pela qualidade de seus produtos e por seu estilo autêntico, onde a inovação é um dos pontos fortes.
+                    O esforço constante dos profissionais, que almejam proporcionar aos clientes a melhor experiência gastronômica em culinária japonesa no restaurante ou através do delivery.</p>
             </aside>
 
         </main>
@@ -184,28 +181,68 @@
 
     <!-- about us section ends -->
 
-    <main id="contato">
-            <aside>
-                <h2><span>Entre em contato</span></h2>
-                <h2>com a Missô</h2>
-                <form action="">
-                    <input type="text" placeholder="Digite seu email">
-                    <input type="password" placeholder="Deixe sua mensagem">
-                    <input type="submit" value="Enviar">
-                </form>
-            </aside>
+    <main class="contato" id="contato">
+        <aside>
+            <span class="texto">Entre em contato</span>
+            <h3>com a Missô</h3>
+            <form action="">
+                <input type="email" placeholder="Digite seu email">
+                <input type="text" placeholder="Deixe sua mensagem">
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
 
-            <article id="foto-contato">
-                <img class="foto-tela" src="./img/contato.svg">
-            </article>
+        <article id="foto-contato">
+            <img class="foto-tela" src="./img/contato.svg">
+        </article>
 
     </main>
 
+    <div class="body-footer">
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+
+            <ul class="social_icon">
+                <li><a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+
+                <li><a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+
+                <li><a href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+
+                <li><a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+
+            </ul>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="./links/login-adm.php">ADM</a></li>
+
+            </ul>
+            <p>@2022 All rights reserve by Missô</p>
+        </footer>
+    </div>
 
 
-    <button><a href="./links/login-adm.php">ADM</a></button>
+    <!-- <button><a href="./links/login-adm.php">ADM</a></button> -->
 
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

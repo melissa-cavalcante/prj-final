@@ -11,32 +11,36 @@
     --vermelho-claro: #e74c4c;
 }
 
-#contato{
-    margin-left: 180px;
-    padding: 0;
+.contato {
+    margin-left: 10px;
+    padding: 10px;
 }
 
-#contato > h2{
+.contato > h2{
     font-size: 56px;
     line-height: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
-#contato > span{
+.contato > span{
     color: var(--rosa-claro);
 }
 
 
 #foto-contato{
+    margin-top: 60px;
     justify-content: center;
     margin-left: 110px;
     width: 50%;
     height: 50%;
 }
 
+.foto-tela {
+    margin-top: 60px;
+    width: 100%;
+}
 
-
-#contato > aside{
+.contato > aside{
     align-items: center;
     justify-content: center;
     margin-top: 110px;

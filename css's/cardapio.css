@@ -48,3 +48,7 @@ h3{
 .vermais{
     color: var(--bg);
 }
+
+.vermais:hover{
+    color: var(--rosa-escuro);
+}
